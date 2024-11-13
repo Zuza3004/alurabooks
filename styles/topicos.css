@@ -16,6 +16,10 @@
     justify-content: center;
   }
 
+  .tópicos__item {
+    margin: 2em 0.5em;
+}
+
   .tópicos__link {
     color: var(--branco);
     padding: 1em;
