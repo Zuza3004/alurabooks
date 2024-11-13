@@ -62,6 +62,10 @@ display: inline-block;
     display: none;
   }
 
+  .opções {
+    display: none;
+  }
+
   @media screen and (min-width: 1024px) {
     .container__titulo,
     .container__titulo--negrito {
@@ -82,9 +86,17 @@ display: inline-block;
   .opções {
     display: flex;
   }
-  
+
       .opções_item {
       padding: 0 1em;
       text-transform: uppercase;
     }
+  
+    .opções__link {
+    text decoration: none;
+    color: var(--preto);
+  }
+
+  .container__imagem-transparente {
+    display: none;
   }
